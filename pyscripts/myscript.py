@@ -1,7 +1,6 @@
-import sys
+def greet(name):
+    return f"Hello, {name}! Welcome to DevNetLearning."
 
-def main():
-    print("Hello, World!")
-    # Add your main logic here
-
-if __name__ ==
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    print(greet(user_name))
